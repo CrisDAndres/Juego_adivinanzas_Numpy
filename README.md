@@ -1,8 +1,10 @@
-# Juego de adivinanzas
+# ❓🔍 Juego de adivinanzas 
 
-*¿Serás capaz de adivinar el número aleatorio que se genera utilizando la librería NumPy?*
+### *¿Serás capaz de adivinar el número aleatorio que se genera utilizando la librería NumPy?*
 
 NumPy es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos. En el paquete **random** de NumPy podemos encontrar varias funciones para generar datos aleatorios de manera sencilla. En este juego vamos a utilizarlo para generar ese número que tú tienes que intentar adivinar.
+
+Además se ha utilizado el paquete ``tkinter`` de Python para crear una interfaz gráfica y que el juego sea más cómodo. 
 
 ## Cómo Jugar
 
@@ -16,7 +18,8 @@ NumPy es una librería de Python especializada en el cálculo numérico y el an�
 3. **Cómo Ejecutar el Juego:**
    - Descarga o clona este repositorio en tu máquina local.
    - Abre la terminal y navega hasta el directorio donde se encuentra el juego.
-   - Ejecuta el archivo principal del juego (`Juego_adivinanzas_Numpy.py`).
+   - Ejecuta el archivo principal del juego (`adivina_numero.py`) desde tu terminal o IDE Python preferido.
+   - Se abrirá una interfaz gráfica creada por **tkinter** para que puedas jugar.
 
 ## Autor
 
