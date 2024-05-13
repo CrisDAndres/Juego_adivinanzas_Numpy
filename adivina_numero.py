@@ -27,7 +27,6 @@ def adivinanza():
                 
                 elif numero < 1 or numero > 100:
                     resultado.config(text='Lo siento, el número debe estar entre 1 y 100.')
-                    intento += 1  # Incrementar el contador de intentos si se ingresa un número fuera del rango
                     continue  # No contar este intento, seguir al siguiente
                     
                 elif intento == 9:
@@ -38,11 +37,12 @@ def adivinanza():
                     resultado.config(text='¡Enhorabuena, has acertado!')
                     return
                 
-                intento += 1  # Incrementar el contador de intentos
 
             except ValueError:  # Manejar el caso en que se ingrese un valor no numérico
                 resultado.config(text='Por favor, ingrese un número válido o "exit" para salir.')
                 continue
+            
+            intento += 1  # Incrementar el contador de intentos
              
 # ----------------Interfaz gráfica usando tkinter------------------#
 
